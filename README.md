@@ -31,10 +31,16 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
         mavenCentral()
     }
 
+Android <5.0
     dependencies {
         compile 'cn.pedant.sweetalert:library:1.3'
     }
-
+    
+    Or
+    Android >5.0
+  dependencies {
+            implementation 'com.github.f0ris.sweetalert:library:1.5.1'
+    }
 ## Usage
 
 show material progress
